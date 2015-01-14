@@ -14,6 +14,7 @@
 body {
      border: 1px dotted gray;
      padding: 20px;
+
 }
 
 .jumbotron {
@@ -23,12 +24,58 @@ body {
 
 .jumbotron:after {
      content:"";
-     background: url("http://lorempixel.com/1140/283");
-     opacity: 0.2;
+     background: url("https://farm9.staticflickr.com/8619/15785705770_1abd5220c1_h.jpg");
+     opacity: 0.3;
      top: 0;
      left: 0;
      bottom: 0;
      right: 0;
-     position: absolute;
+     position: fixed;
      z-index: -1;
+     width: 100%;
+}
+
+p {
+     font-family: trebuchet ms;
+     font-weight: bold;
+     text-align: center;
+}
+
+img {
+     opacity: 0.3;
+
+}
+
+h1 {
+     font-family: trebuchet ms;
+     font-weight: bold;
+     text-align: center;
+}
+
+h2{
+     margin: 0;
+     color: #666;
+     padding-top: 90px;
+     font-size: 52px;
+     font-family: "trebuchet ms", sans-serif;
+}
+
+.item{
+     background: #333;
+     text-align: center;
+     height: 400px !important;
+}
+.carousel{
+     margin-top: 20px;
+}
+.bs-example{
+     margin: 20px;
+}
+.carousel-caption{
+     font-weight: bold;
+     font-size: 70pt;
+     opacity: .8;
+     text-align: center;
+     font-family: "trebuchet ms", sans-serif;
+     line-height: 75px;
 }
